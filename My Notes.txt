@@ -1,0 +1,86 @@
+search item --> Red metallic blender
+
+click on quickview
+//*[contains(text(),'Quick View')]
+
+verify the product title, validate with the product title in PLP
+//*[@id="productTitle"]/a
+
+Validate the product description
+//*[@class="prodDescHead noMar"]
+
+validate the quantity is enabled
+//*[@id="quantity"]
+
+validate the add to cart button and click
+//*[@name="btnAddToCart"] -> click
+wait
+validate the title
+//*[@class="cartAddedTitle"] --> title validate
+
+validate the View Cart
+//a[contains(text(),'VIEW CART')]
+
+validate the Keep Shopping and then click
+//input[@class="continueShop"] -> click
+
+Click on QuickView
+//*[contains(text(),'Quick View')]
+
+validate add to Registry and click
+//*[@class="btnAddToRegistry"] --> click
+
+validate the registry is added
+//*[@class="modalHead"] -- > is displayed
+ 
+validate title with the displayed title .. contains
+//*[@id="cartAdded"]/p
+
+validate the view Registry
+//*[@class="viewRegistry"]
+
+validate the Keep Shopping and then click
+//*[contains(text(),'KEEP SHOPPING')] -->
+
+click on QuickView
+
+Validate the add to ideaboard and then click
+//*[@id="saveToBoardLink"] --> click
+wait
+
+validate the Create New IdeaBord button.
+//*[@class="noline"]
+
+click on close
+
+click on QuickView
+
+validate and click on find in store
+//*[contains(text(),'Find In Store')]
+
+validate the zipcode is displayed
+//*[@id="txtStoreZip"]
+
+validate the Address
+//*[@id="txtStoreAddress"]
+
+validate the city
+//*[@id="txtStoreCity"]
+
+validate the state
+//*[@id="txtStoreState"]
+
+validate the radius
+//*[@id="selRadius"]
+
+validate the Go button
+//span[contains(text(),'Go')]
+
+validate cancel click on cancel
+//span[contains(text(),'Cancel')]
+
+
+
+
+
+
